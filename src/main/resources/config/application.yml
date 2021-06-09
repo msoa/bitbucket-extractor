@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    jpa:
+      properties:
+        hibernate:
+          jdbc:
+            lob:
+              non_contextual_creation: true
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate:
+        ddl-auto: none
+
+bitbucket:
+  owner: ${BITBUCKET_OWNER}
+  authenticate: ${BITBUCKET_AUTH}
+  project.name: ${BITBUCKET_PROJECT_NAME}
