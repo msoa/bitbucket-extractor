@@ -41,26 +41,16 @@ dependencies {
 
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2")
 
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-	implementation("org.springframework:spring-jdbc")
 	implementation("javax.persistence:javax.persistence-api:2.2")
-	implementation("org.hibernate:hibernate-entitymanager:5.2.12.Final")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.flywaydb:flyway-core:5.2.4")
 	implementation("org.postgresql:postgresql")
 
 	implementation("com.squareup.okhttp3:okhttp:4.9.0")
-	
+
 	implementation("com.google.code.gson:gson:2.8.5")
-	implementation("javax.xml.bind:jaxb-api:2.4.0-b180830.0359")
-
-	implementation("org.apache.commons:commons-csv:1.8")
-
-	compileOnly("org.projectlombok:lombok")
-	annotationProcessor("org.projectlombok:lombok")
-	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
 tasks.withType<Test> {
