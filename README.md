@@ -12,6 +12,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#running-locally">Running Locally</a></li>
+        <li><a href="#Running-docker-compose">Running docker-compose</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
