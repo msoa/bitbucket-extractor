@@ -23,10 +23,10 @@
 hs_err_pid*
 
 # build directory
-build
+build/
 
 # Idea
-.idea
+.idea/
 
 # gradle
-.gradle
+.gradle/
